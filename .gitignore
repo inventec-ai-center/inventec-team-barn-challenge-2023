@@ -1,0 +1,11 @@
+.vscode
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.avi
+*.png
+*.db3
+*.npz
+rosbag/**
+*.bag
+*.svg
