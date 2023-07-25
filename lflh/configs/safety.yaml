@@ -1,0 +1,4 @@
+safety:
+  size : 10
+  std : 100
+  thresh: 0.6

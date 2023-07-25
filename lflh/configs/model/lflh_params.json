@@ -1,0 +1,71 @@
+{
+	"info": null,
+	"log": true,
+	"model": {
+		"device": "cpu",
+		"weight": "model_1000_1m",
+		"obs_size": 722,
+		"layer_sizes": [
+			256,
+			256
+		]
+	},
+	"backtrack": {
+		"align_deg": 3.0,
+		"target_dist_m": 0.3,
+		"l2_dist_m": 0.1,
+		"rev_vel": -0.3,
+		"timeout": 0.25
+	},
+	"costmap": {
+		"max_val": 100,
+		"rear_weight": 0.8
+	},
+	"hard_turn": {
+		"max_deg": 60.0,
+		"stop_deg": 10.0,
+		"p_gain": 1.5
+	},
+	"lidar": {
+		"dimension": 720,
+		"angle_min": -2.3561899662017822,
+		"angle_max": 2.3561899662017822,
+		"max_range": 2.0,
+		"offset_y_m": 0.055,
+		"front_angle": 47,
+		"coll_max_m": 0.37,
+		"coll_min_m": 0.28,
+		"coll_offset_m": 0.02,
+		"front_dist_clear_m": 2.0
+	},
+	"local": {
+		"start_dist": 0.05,
+		"dir_dist": 0.5,
+		"goal_dist": 1.5
+	},
+	"rate": {
+		"main": 30,
+		"update_dt": 0.04
+	},
+	"robot": {
+		"width_m": 0.43,
+		"length_m": 0.508,
+		"rear_length_m": 0.2
+	},
+	"safety": {
+		"dt": 0.02,
+		"step": 20
+	},
+	"speed": {
+		"rotate_align_min_w": 0.2,
+		"linear_v_gain": 0.25,
+		"rotate_w_gain": 0.2,
+		"front_pad_v": 0.5,
+		"limit_v": 0.7,
+		"acc_v": 1.0,
+		"max_v": 2.0,
+		"max_w": 2.0,
+		"stuck_v": 0.1,
+		"stuck_w": 0.1
+	}
+}
